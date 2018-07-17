@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cc93d2705a81a5a50adddd0cbf59163c",
+        "contentDigest": "3b056c688afe2358ca1f8dc18264433b",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1074,12 +1074,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-16T22:03:20.758Z",
+      "buildTime": "2018-07-17T20:00:51.780Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "28669406297c15869be8124b31543551",
+        "contentDigest": "bbfca2f79b5039c3def258eb20d56d26",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1089,7 +1089,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2df11256dcad07e5dc34d9012fef6b2d",
+        "contentDigest": "4f30fee77b8aa3dea7ac8e770ef937e2",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1100,9 +1100,9 @@
       "extension": "",
       "size": 192,
       "prettySize": "192 B",
-      "modifiedTime": "2018-07-16T19:05:03.566Z",
-      "accessTime": "2018-07-16T22:03:23.056Z",
-      "changeTime": "2018-07-16T20:09:05.853Z",
+      "modifiedTime": "2018-07-17T19:38:02.281Z",
+      "accessTime": "2018-07-17T20:00:53.330Z",
+      "changeTime": "2018-07-17T19:38:02.281Z",
       "birthTime": "2018-07-16T19:05:03.566Z",
       "root": "/",
       "dir": "/Users/erik/Documents/Sites/clinger-pro/src",
@@ -1119,13 +1119,13 @@
       "blksize": 4194304,
       "ino": 7432313,
       "blocks": 0,
-      "atimeMs": 1531778603056.4314,
-      "mtimeMs": 1531767903566.072,
-      "ctimeMs": 1531771745853.0632,
+      "atimeMs": 1531857653329.534,
+      "mtimeMs": 1531856282281.1274,
+      "ctimeMs": 1531856282281.1274,
       "birthtimeMs": 1531767903565.593,
-      "atime": "2018-07-16T22:03:23.056Z",
-      "mtime": "2018-07-16T19:05:03.566Z",
-      "ctime": "2018-07-16T20:09:05.853Z",
+      "atime": "2018-07-17T20:00:53.330Z",
+      "mtime": "2018-07-17T19:38:02.281Z",
+      "ctime": "2018-07-17T19:38:02.281Z",
       "birthtime": "2018-07-16T19:05:03.566Z"
     },
     "/Users/erik/Documents/Sites/clinger-pro/src/pages/about absPath of file": {
@@ -1133,7 +1133,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f6005322d5696ce415ba261fbecd280e",
+        "contentDigest": "f9bb9489b87f93cdb6ec73ac4aa661d4",
         "type": "Directory",
         "description": "Directory \"src/pages/about\"",
         "owner": "gatsby-source-filesystem"
@@ -1145,7 +1145,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-16T19:05:03.566Z",
-      "accessTime": "2018-07-16T22:03:23.059Z",
+      "accessTime": "2018-07-17T20:00:53.332Z",
       "changeTime": "2018-07-16T20:09:05.852Z",
       "birthTime": "2018-07-16T19:05:03.566Z",
       "root": "/",
@@ -1163,11 +1163,11 @@
       "blksize": 4194304,
       "ino": 7432316,
       "blocks": 0,
-      "atimeMs": 1531778603059.1067,
+      "atimeMs": 1531857653331.6726,
       "mtimeMs": 1531767903565.8162,
       "ctimeMs": 1531771745851.752,
       "birthtimeMs": 1531767903565.7637,
-      "atime": "2018-07-16T22:03:23.059Z",
+      "atime": "2018-07-17T20:00:53.332Z",
       "mtime": "2018-07-16T19:05:03.566Z",
       "ctime": "2018-07-16T20:09:05.852Z",
       "birthtime": "2018-07-16T19:05:03.566Z"
@@ -1177,7 +1177,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6d90e2f5d8b1ec42023b863ece90a7c8",
+        "contentDigest": "39c4cb66709fc6f93ea91d6ac957a821",
         "type": "Directory",
         "description": "Directory \"src/pages/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -1189,7 +1189,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-16T19:05:03.566Z",
-      "accessTime": "2018-07-16T22:03:23.059Z",
+      "accessTime": "2018-07-17T20:00:53.332Z",
       "changeTime": "2018-07-16T20:09:05.853Z",
       "birthTime": "2018-07-16T19:05:03.566Z",
       "root": "/",
@@ -1207,11 +1207,11 @@
       "blksize": 4194304,
       "ino": 7432318,
       "blocks": 0,
-      "atimeMs": 1531778603059.1365,
+      "atimeMs": 1531857653331.6892,
       "mtimeMs": 1531767903565.9607,
       "ctimeMs": 1531771745853.0012,
       "birthtimeMs": 1531767903565.9204,
-      "atime": "2018-07-16T22:03:23.059Z",
+      "atime": "2018-07-17T20:00:53.332Z",
       "mtime": "2018-07-16T19:05:03.566Z",
       "ctime": "2018-07-16T20:09:05.853Z",
       "birthtime": "2018-07-16T19:05:03.566Z"
@@ -1447,7 +1447,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "33fc21b2d088ad1cfcbafc8da117193e",
+        "contentDigest": "e4a7968ca5ce966cf9112722a0882952",
         "type": "Directory",
         "description": "Directory \"src/examples\"",
         "owner": "gatsby-source-filesystem"
@@ -1459,7 +1459,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-16T19:05:03.565Z",
-      "accessTime": "2018-07-16T22:03:23.094Z",
+      "accessTime": "2018-07-17T20:00:53.341Z",
       "changeTime": "2018-07-16T20:09:05.845Z",
       "birthTime": "2018-07-16T19:05:03.565Z",
       "root": "/",
@@ -1477,11 +1477,11 @@
       "blksize": 4194304,
       "ino": 7432307,
       "blocks": 0,
-      "atimeMs": 1531778603094.2827,
+      "atimeMs": 1531857653340.511,
       "mtimeMs": 1531767903565.046,
       "ctimeMs": 1531771745845.1106,
       "birthtimeMs": 1531767903564.863,
-      "atime": "2018-07-16T22:03:23.094Z",
+      "atime": "2018-07-17T20:00:53.341Z",
       "mtime": "2018-07-16T19:05:03.565Z",
       "ctime": "2018-07-16T20:09:05.845Z",
       "birthtime": "2018-07-16T19:05:03.565Z"
@@ -1657,7 +1657,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5c8f9e35ff16f1f08dec99719fa3483c",
+        "contentDigest": "f9bbca4f7474fd20a3634db6be64b6cf",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1678,7 +1678,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c57da62b4ae1e40a31bbbe6c0b6aa1f4",
+        "contentDigest": "1490351c604535dea49989012001fe09",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1699,7 +1699,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f1917e647c5a282bb47773f965fb9649",
+        "contentDigest": "386c9f06505c0bde007d8573c5896290",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1720,7 +1720,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5abf987c8f56e5aa6b458864628f4166",
+        "contentDigest": "42789c25b7056ae2050ac9378522fc5f",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1741,7 +1741,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c7d304014df482b79df73f9135da3e0e",
+        "contentDigest": "51d5b8e39e7a36f4447c072929f189f4",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1762,7 +1762,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9dae111f43e6a01dcbe2ae7195300e5e",
+        "contentDigest": "7d4f89f0311077eb7082829c1326919e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1783,10 +1783,144 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8f686494ec58338351bd764e7334c28a",
+        "contentDigest": "96cef58a09bb210b71693acc34eaf24f",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin absPath of file": {
+      "id": "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e348663c1009a65150d64b1dd7fe7a3d",
+        "type": "Directory",
+        "description": "Directory \"src/pages/admin\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin",
+      "relativePath": "admin",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-07-17T19:54:18.295Z",
+      "accessTime": "2018-07-17T20:05:15.962Z",
+      "changeTime": "2018-07-17T20:05:15.750Z",
+      "birthTime": "2018-07-16T19:05:03.567Z",
+      "root": "/",
+      "dir": "/Users/erik/Documents/Sites/clinger-pro/src/pages",
+      "base": "admin",
+      "ext": "",
+      "name": "admin",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 7432320,
+      "blocks": 0,
+      "atimeMs": 1531857915961.6577,
+      "mtimeMs": 1531857258295.3271,
+      "ctimeMs": 1531857915749.5957,
+      "birthtimeMs": 1531767903566.589,
+      "atime": "2018-07-17T20:05:15.962Z",
+      "mtime": "2018-07-17T19:54:18.295Z",
+      "ctime": "2018-07-17T20:05:15.750Z",
+      "birthtime": "2018-07-16T19:05:03.567Z"
+    },
+    "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin/config.yml absPath of file": {
+      "id": "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin/config.yml absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "80c2c069ad5891165e33b21f786a80ec",
+        "mediaType": "text/yaml",
+        "type": "File",
+        "description": "File \"src/pages/admin/config.yml\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin/config.yml",
+      "relativePath": "admin/config.yml",
+      "extension": "yml",
+      "size": 1316,
+      "prettySize": "1.32 kB",
+      "modifiedTime": "2018-07-16T19:05:03.567Z",
+      "accessTime": "2018-07-17T20:01:03.048Z",
+      "changeTime": "2018-07-16T20:09:05.867Z",
+      "birthTime": "2018-07-16T19:05:03.567Z",
+      "root": "/",
+      "dir": "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin",
+      "base": "config.yml",
+      "ext": ".yml",
+      "name": "config",
+      "relativeDirectory": "admin",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 7432323,
+      "blocks": 8,
+      "atimeMs": 1531857663047.6853,
+      "mtimeMs": 1531767903566.7314,
+      "ctimeMs": 1531771745867.3755,
+      "birthtimeMs": 1531767903566.6416,
+      "atime": "2018-07-17T20:01:03.048Z",
+      "mtime": "2018-07-16T19:05:03.567Z",
+      "ctime": "2018-07-16T20:09:05.867Z",
+      "birthtime": "2018-07-16T19:05:03.567Z"
+    },
+    "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin/index.html absPath of file": {
+      "id": "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin/index.html absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aeec28116e5ac63867d7952a2b3d2977",
+        "mediaType": "text/html",
+        "type": "File",
+        "description": "File \"src/pages/admin/index.html\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin/index.html",
+      "relativePath": "admin/index.html",
+      "extension": "html",
+      "size": 646,
+      "prettySize": "646 B",
+      "modifiedTime": "2018-07-17T19:54:18.295Z",
+      "accessTime": "2018-07-17T20:01:03.413Z",
+      "changeTime": "2018-07-17T19:54:18.295Z",
+      "birthTime": "2018-07-17T19:54:18.295Z",
+      "root": "/",
+      "dir": "/Users/erik/Documents/Sites/clinger-pro/src/pages/admin",
+      "base": "index.html",
+      "ext": ".html",
+      "name": "index",
+      "relativeDirectory": "admin",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 7581904,
+      "blocks": 8,
+      "atimeMs": 1531857663413.0032,
+      "mtimeMs": 1531857258295.3745,
+      "ctimeMs": 1531857258295.3745,
+      "birthtimeMs": 1531857258295.3186,
+      "atime": "2018-07-17T20:01:03.413Z",
+      "mtime": "2018-07-17T19:54:18.295Z",
+      "ctime": "2018-07-17T19:54:18.295Z",
+      "birthtime": "2018-07-17T19:54:18.295Z"
     }
   },
   "status": {
