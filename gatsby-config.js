@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Level Up Blog',
-    description: 'A new blog!',
+    title: 'Clinger Pro Roofing',
+    description: 'A roofer you can trust',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
