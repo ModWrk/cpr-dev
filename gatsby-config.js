@@ -1,36 +1,42 @@
 module.exports = {
   siteMetadata: {
-    title: 'Clinger Pro Roofing',
-    author: 'Erik Clevenger',
-    authorLink: 'https://github.com/ModWrk/clinger-pro',
-    disqus: 'false'// put your disqus ID here
+    title: 'Level Up Blog',
+    description: 'A new blog!',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages'
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/examples`,
-        name: 'examples'
-      }
-    },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files'
-        ]
-      }
+        name: 'gatsby-starter-default',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#663399',
+        theme_color: '#663399',
+        display: 'minimal-ui',
+        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+      },
     },
     'gatsby-plugin-offline',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass'
-  ]
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/posts`,
+        name: 'posts',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/images`,
+        name: 'images',
+      },
+    },
+    'gatsby-transformer-remark',
+    'gatsby-plugin-netlify-cms',
+    `gatsby-plugin-netlify`, // make sure to put last in the array
+  ],
 }

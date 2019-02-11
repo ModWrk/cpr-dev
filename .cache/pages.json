@@ -1,58 +1,52 @@
 [
     {
-        "componentChunkName": "component---src-templates-about-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "about.json",
-        "path": "/about"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "welcome.json",
-        "path": "/welcome"
-    },
-    {
-        "componentChunkName": "component---src-templates-about-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "examples-about.json",
-        "path": "/examples/about"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "examples-blog.json",
-        "path": "/examples/blog"
-    },
-    {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
-    },
-    {
-        "componentChunkName": "component---src-pages-404-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "404.json",
-        "path": "/404/"
-    },
-    {
         "componentChunkName": "component---src-pages-index-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "index.json",
+        "jsonName": "index",
         "path": "/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "404-html.json",
+        "jsonName": "404-html-516",
         "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-about-js",
+        "jsonName": "about-f34",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-pages-company-team-js",
+        "jsonName": "company-team-a16",
+        "path": "/company/team/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-page-2-js",
+        "jsonName": "page-2-fbc",
+        "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-first-post-162",
+        "path": "/posts/first-post"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-second-post-14f",
+        "path": "/posts/second-post"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-third-post-82e",
+        "path": "/posts/third-post"
     }
 ]
