@@ -6,33 +6,35 @@
   X-Content-Type-Options: nosniff
 /static/*
   Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
 /offline-plugin-app-shell-fallback/
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-2d2526907e24b48cb36b.js>; rel=preload; as=script
-/posts/second-post
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </0-59fa6070b941aaacdc86.js>; rel=preload; as=script
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-7366085f1031a287fa15.js>; rel=preload; as=script
 /posts/first-post
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </0-59fa6070b941aaacdc86.js>; rel=preload; as=script
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </0-03aa50a9066a8070c3a5.js>; rel=preload; as=script
 /posts/third-post
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </0-59fa6070b941aaacdc86.js>; rel=preload; as=script
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </0-03aa50a9066a8070c3a5.js>; rel=preload; as=script
+/posts/second-post
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </0-03aa50a9066a8070c3a5.js>; rel=preload; as=script
 /404/
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </0-59fa6070b941aaacdc86.js>; rel=preload; as=script
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </0-03aa50a9066a8070c3a5.js>; rel=preload; as=script
 /about/
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </0-59fa6070b941aaacdc86.js>; rel=preload; as=script
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </0-03aa50a9066a8070c3a5.js>; rel=preload; as=script
 /company/team/
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </0-59fa6070b941aaacdc86.js>; rel=preload; as=script
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </0-03aa50a9066a8070c3a5.js>; rel=preload; as=script
 /
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </0-59fa6070b941aaacdc86.js>; rel=preload; as=script
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </0-03aa50a9066a8070c3a5.js>; rel=preload; as=script
 /page-2/
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </0-59fa6070b941aaacdc86.js>; rel=preload; as=script
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </0-03aa50a9066a8070c3a5.js>; rel=preload; as=script
 /404.html
-  Link: </webpack-runtime-dddb1f274c217cc7e533.js>; rel=preload; as=script
-  Link: </0-59fa6070b941aaacdc86.js>; rel=preload; as=script
+  Link: </webpack-runtime-15d8e0bbb3edc7808e57.js>; rel=preload; as=script
+  Link: </0-03aa50a9066a8070c3a5.js>; rel=preload; as=script
