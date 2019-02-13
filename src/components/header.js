@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import logo from '../images/logo.svg'
 
 const HeaderWrapper = styled.div`
-  background: #524763;
+  background: #253975;
   img {
     margin-bottom: 0;
   }
@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
               width: '100px',
             }}
             src={logo}
-            alt="Level Up Tutorials Logo"
+            alt="Clinger Pro Roofing Logo"
           />
         </Link>
       </h1>
