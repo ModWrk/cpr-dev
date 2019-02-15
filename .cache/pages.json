@@ -35,11 +35,6 @@
         "path": "/gallery/"
     },
     {
-        "componentChunkName": "component---src-pages-page-2-js",
-        "jsonName": "page-2-fbc",
-        "path": "/page-2/"
-    },
-    {
         "componentChunkName": "component---src-components-post-layout-js",
         "jsonName": "posts-first-post-162",
         "path": "/posts/first-post"
