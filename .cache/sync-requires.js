@@ -10,7 +10,9 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("/Users/erik/Documents/_Sites/clinger-pro/src/pages/404.js"))),
   "component---src-pages-about-js": hot(preferDefault(require("/Users/erik/Documents/_Sites/clinger-pro/src/pages/about.js"))),
   "component---src-pages-company-team-js": hot(preferDefault(require("/Users/erik/Documents/_Sites/clinger-pro/src/pages/company/team.js"))),
+  "component---src-pages-gallery-js": hot(preferDefault(require("/Users/erik/Documents/_Sites/clinger-pro/src/pages/gallery.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/erik/Documents/_Sites/clinger-pro/src/pages/index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/erik/Documents/_Sites/clinger-pro/src/pages/page-2.js")))
+  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/erik/Documents/_Sites/clinger-pro/src/pages/page-2.js"))),
+  "component---src-pages-services-js": hot(preferDefault(require("/Users/erik/Documents/_Sites/clinger-pro/src/pages/services.js")))
 }
 
