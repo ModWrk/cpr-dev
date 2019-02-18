@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import logo from '../images/logo.svg'
 
 const HeaderWrapper = styled.div`
-  background: transparent;
+  background: rgba( 0, 0, 0, .0);
   position: fixed;
   width: 100%;
   img {
@@ -19,12 +19,16 @@ const HeaderContainer = styled.div`
   padding: 0.3rem;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 2fr 4fr 6fr;
-  grid-template-rows: 100px;
+  grid-template-columns: 3fr 4fr 3fr;
+  grid-template-rows: 100px 100px;
+  grid-template-areas:
+  "logo . navItems"
+  ". cta ."
+  ;
 `
 const NavItems = styled.div`
   margin: auto 0;
-  grid-column: 2 / -1;
+  grid-column: 3 / -1;
   a {
     text-decoration: none;
     color: white;
@@ -32,10 +36,26 @@ const NavItems = styled.div`
     float: right;
   }
 `
+const Action = styled.div`
+  grid-area: cta;
+  height: 4rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: .25rem solid white;
+  border-radius: 1.5rem;
+  background: #253975;
+  a {
+    color: white;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-decoration: none;
+
+  }
+`
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
-    <HeaderContainer>
+    <HeaderContainer className="logo">
       <div style={{ margin: 0 }}>
         <Link
           to="/"
@@ -53,7 +73,8 @@ const Header = ({ siteTitle }) => (
           />
         </Link>
       </div>
-      <NavItems>
+      <Action className="cta"><a href="tel:+15058650605">Call Today!</a></Action>
+      <NavItems className="navItems" >
         <Link to="/gallery/">Gallery</Link>
         <Link to="/blog/">Blog</Link>
         <Link to="/services/">Services</Link>

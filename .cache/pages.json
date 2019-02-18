@@ -20,6 +20,11 @@
         "path": "/about/"
     },
     {
+        "componentChunkName": "component---src-pages-blog-js",
+        "jsonName": "blog-f7a",
+        "path": "/blog/"
+    },
+    {
         "componentChunkName": "component---src-pages-company-team-js",
         "jsonName": "company-team-a16",
         "path": "/company/team/"

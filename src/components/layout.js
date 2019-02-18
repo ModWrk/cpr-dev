@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
-import Archive from './archive'
+import Footer from './footer'
 import bg from '../images/bg.jpg'
 import './layout.css'
 
@@ -14,8 +14,20 @@ const MainLayout = styled.main`
   max-width: 90%;
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 3fr 1fr;
   grid-gap: 20px;
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-rows: 250px;
+  grid-template-areas: 
+  "sidebar-1 content ."
+  "sidebar-1 content ."
+  "footer footer footer"  
+;
+`
+
+
+
+const Content = styled.div`
+  grid-area: content;
 `
 
 const Layout = ({ children, location }) => (
@@ -46,19 +58,20 @@ const Layout = ({ children, location }) => (
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Spring
-          from={{ height: location.pathname === '/' ? 250 : 400 }}
-          to={{ height: location.pathname === '/' ? 400 : 250 }}
+          from={{ height: location.pathname === '/' ? 250 : 500 }}
+          to={{ height: location.pathname === '/' ? 500 : 250 }}
         >
           {styles => (
             <div style={{ overflow: 'hidden', ...styles }}>
               <img src={bg} alt="Background" />
             </div>
           )}
+          
         </Spring>
         <MainLayout>
-          <div>{children}</div>
-          <Archive />
+          <Content className="content">{children}</Content>
         </MainLayout>
+        <Footer className="footer"/>
       </>
     )}
   />
