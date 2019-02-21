@@ -25,11 +25,6 @@
         "path": "/blog/"
     },
     {
-        "componentChunkName": "component---src-pages-company-team-js",
-        "jsonName": "company-team-a16",
-        "path": "/company/team/"
-    },
-    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
@@ -53,10 +48,5 @@
         "componentChunkName": "component---src-components-post-layout-js",
         "jsonName": "posts-third-post-82e",
         "path": "/posts/third-post"
-    },
-    {
-        "componentChunkName": "component---src-pages-services-js",
-        "jsonName": "services-522",
-        "path": "/services/"
     }
 ]

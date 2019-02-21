@@ -1,14 +1,45 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Spring } from 'react-spring'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Footer from './footer'
-import bg from '../images/bg.jpg'
+import Action from './action'
 import './layout.css'
+
+import bg from '../images/bg.jpg'
+
+const BigBackground = styled.section`
+  background: white url(${bg});
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-rows: 100px 250px 125px ;
+  grid-template-areas:
+  ". . ."
+  ". action ."
+  ". . .";
+  * {
+    grid-area: action;
+    align-self: end;
+  }
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 100px 100px;
+    grid-template-areas:
+    "..."
+    "action"
+    "...";
+
+  }
+`
 
 const MainLayout = styled.main`
   max-width: 90%;
@@ -18,19 +49,21 @@ const MainLayout = styled.main`
   grid-template-columns: 2fr 8fr 2fr;
   grid-template-rows: 250px;
   grid-template-areas: 
-  "sidebar-1 content ."
-  "sidebar-1 content ."
-  "footer footer footer"  
-;
+  ". content ."
+  "footer footer footer";
+
+  @media (max-width: 700px) {
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+  }
 `
-
-
 
 const Content = styled.div`
   grid-area: content;
+
 `
 
-const Layout = ({ children, location }) => (
+const Layout = ({ location, children}) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -56,20 +89,15 @@ const Layout = ({ children, location }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <Spring
-          from={{ height: location.pathname === '/' ? 250 : 500 }}
-          to={{ height: location.pathname === '/' ? 500 : 250 }}
-        >
-          {styles => (
-            <div style={{ overflow: 'hidden', ...styles }}>
-              <img src={bg} alt="Background" />
-            </div>
-          )}
-          
-        </Spring>
+        <Header className="hero" siteTitle={data.site.siteMetadata.title}>
+        </Header>
+        <BigBackground>
+          <Action />
+        </BigBackground>
         <MainLayout>
-          <Content className="content">{children}</Content>
+          <Content className="content">
+            <div>{children}</div>
+          </Content>
         </MainLayout>
         <Footer className="footer"/>
       </>
@@ -78,7 +106,7 @@ const Layout = ({ children, location }) => (
 )
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node
 }
 
 Layout.defaultProps = {
