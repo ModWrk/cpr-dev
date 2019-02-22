@@ -48,5 +48,10 @@
         "componentChunkName": "component---src-components-post-layout-js",
         "jsonName": "posts-third-post-82e",
         "path": "/posts/third-post"
+    },
+    {
+        "componentChunkName": "component---src-pages-services-js",
+        "jsonName": "services-522",
+        "path": "/services/"
     }
 ]

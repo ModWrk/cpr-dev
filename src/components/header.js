@@ -42,6 +42,7 @@ const Logo = styled.div`
   @media (max-width: 700px) {
     width: 100px;
     padding-top: 2rem;
+  }
 `
 
 const NavItems = styled.div`
@@ -80,9 +81,8 @@ const Header = ({ siteTitle }) => (
         </Logo>
         <NavItems className="navItems" >
           <Link to="/">Home</Link>
-          <Link to="/about/">About Us</Link>
-          <Link to="/blog/">Blog</Link>
-          <Link to="/gallery/">Gallery</Link>
+          <Link to="/about/">About</Link>
+          <Link to="/services/">Services</Link>
         </NavItems>
       </HeaderContainer>
   </HeaderWrapper>

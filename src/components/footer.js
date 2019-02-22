@@ -11,6 +11,8 @@ const FooterWrapper = styled.div`
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 4fr 4fr 4fr;
+    grid-template-areas:
+    "NavItems Address Plug";
 `
 const NavItems = styled.div`
   margin: auto;
@@ -23,15 +25,25 @@ const NavItems = styled.div`
   }
 `
 
+const Address = styled.div`
+  text-align: center;
+  margin: auto;
+  grid-area: Address;
+  font-size: .75rem;
+  color: white;
+  justify-self: center;
+  align-self: center;
+
+  
+`
+
 const Plug = styled.div`
     grid-column: 3 / -1;
     margin: auto;
-
-    p {
-      color: white;
-      margin: auto;
-      float: right;
-    }
+    justify-self: center;
+    align-self: center;
+    color: white;
+    font-size: .75rem;
     a {
     text-decoration: none;
     font-size: .75rem;
@@ -44,15 +56,12 @@ const Plug = styled.div`
 const Footer = () => (
     <FooterWrapper>
         <NavItems>
-            <Link to="/gallery/">Gallery</Link>
-            <Link to="/blog/">Blog</Link>
-            <Link to="/services/">Services</Link>
-            <Link to="/about/">About Us</Link>
             <Link to="/">Home</Link>
+            <Link to="/about/">About Us</Link>
+            <Link to="/services/">Services</Link>
         </NavItems>
-        <Plug>
-            <p>website by<a href="https://www.modwrk.com">ModWrk</a></p>
-        </Plug>
+        <Address>&copy;&nbsp;2019 All rights reserved.</Address>
+        <Plug>website by<a href="https://www.modwrk.com">ModWrk</a></Plug>
     </FooterWrapper>
 )
 

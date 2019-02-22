@@ -12,7 +12,7 @@ const ActionContainer = styled.div`
 
 const CallTo = styled.div`
     text-align: center;
-    width: 30%;
+    width: 40%;
     height: 4rem;
     margin: 1rem auto;
     padding: 1rem;
@@ -29,9 +29,23 @@ const CallTo = styled.div`
         width: 50%;
     }
 `
+const ByLine = styled.h2`
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    @media (max-width: 700px) {
+        margin: 1rem auto;
+        font-size: 1rem;
+    }
+`
 
 const Hero = styled.h1`
     width: 100%;
+    text-align: center;
     margin: 1rem auto;
     color: white;
     font-size: 3rem;
@@ -48,8 +62,9 @@ const Action = () => (
     <ActionWrapper>
         <ActionContainer>
             <Hero>A Roofer You Can Trust</Hero>
+            <ByLine>Call today for your FREE estimate.</ByLine>
             <CallTo>
-                <a href="tel:+15058650605">Call Today!</a>
+                <a href="tel:+15058650605">(505) 865-0605</a>
             </CallTo>            
         </ActionContainer>
     </ActionWrapper>
