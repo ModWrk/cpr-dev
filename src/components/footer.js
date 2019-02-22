@@ -13,6 +13,10 @@ const FooterWrapper = styled.div`
     grid-template-columns: 4fr 4fr 4fr;
     grid-template-areas:
     "NavItems Address Plug";
+
+    @media (max-width: 500px) {
+      display: none;
+    }
 `
 const NavItems = styled.div`
   margin: auto;
