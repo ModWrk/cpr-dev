@@ -1,4 +1,5 @@
 ---
+path: '/posts/roofing-maintenance'
 title: 'Roofing Maintenance '
 ---
 It is a common misconception that a roof can last for 20-30 years without any maintenance. Ideally, a homeowner should at least do an inspection of the roof once a year. A yearly inspection will be a good indicator of issues that arise with the roof which could lead to a much more cost effective repair rather than replacement. Here are some things to be on the lookout for while inspecting your roof:

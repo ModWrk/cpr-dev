@@ -7,6 +7,7 @@ exports.createPages = ({ graphql, actions }) => {
     graphql(`
       {
         allMarkdownRemark {
+          sort: { fields; [frontmatter] }
           edges {
             node {
               frontmatter {
@@ -17,7 +18,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }    
     `).then(results => {
-      results.data.allMarkdownRemark.edges.forEach(({node}) => {
+      results.data.allMarkdownRemark.edges.forEach(edge => {
         createPage({
           path: `/posts${node.frontmatter.slug}`,
           component: path.resolve('./src/components/postLayout.js'),
